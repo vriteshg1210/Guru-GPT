@@ -2,7 +2,7 @@ import time
 import openai
 from openai import OpenAI
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="Enter your API Key")
 
 # Creating the assistant
 assistant = client.beta.assistants.create(
